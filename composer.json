@@ -1,18 +1,17 @@
 {
-    "name": "pds/skeleton",
-    "type": "standard",
-    "description": "Standard for PHP package skeletons.",
-    "homepage": "https://github.com/php-pds/skeleton",
-    "license": "CC-BY-SA-4.0",
+    "name": "Whyounes/laravel-faq-exceptions",
+    "type": "library",
+    "description": "Laravel package for mapping exception FAQ pages.",
+    "homepage": "https://github.com/Whyounes/laravel-faq-exceptions",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Pds\\Skeleton\\": "src/"
-        }
+            "Whyounes\\FaqException": "src/"
+        },
+        "classmap": [
+            "tests"
+        ]
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Pds\\Skeleton\\": "tests/"
-        }
-    },
-    "bin": ["bin/pds-skeleton"]
+    "autoload-dev": {},
+    "bin": []
 }
