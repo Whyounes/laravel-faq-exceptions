@@ -4,6 +4,9 @@
     "description": "Laravel package for mapping exception FAQ pages.",
     "homepage": "https://github.com/Whyounes/laravel-faq-exceptions",
     "license": "MIT",
+    "require": {
+        "laravel/framework": "~5.3"
+    },
     "autoload": {
         "psr-4": {
             "Whyounes\\FaqException\\": "src/"
