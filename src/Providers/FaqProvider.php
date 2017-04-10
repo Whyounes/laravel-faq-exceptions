@@ -15,7 +15,7 @@ class FaqProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__ . '/../resources/migrations');
         $this->mergeConfigFrom(
-            __DIR__ . '/../../resources/config/faq.php', 'faq'
+            __DIR__ . '/../../config/faq.php', 'faq'
         );
         $this->loadViewsFrom(__DIR__.'/../../resources/views', 'faq');
         $this->publishes([
