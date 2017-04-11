@@ -1,0 +1,13 @@
+Thanks for choosing to contribute to this package.
+
+## Bug Fixes
+
+Bug fixes for a specific release should be sent to the branch containing the bug. You can also submit a failing test showing where the bug occurs.
+
+## Security Fixes
+
+Security fixes may be sent as a PR or via email to younes.rafie@gmail.com
+
+## Coding Standard
+
+This package follows the PSR-2 coding standard and the PSR-4 autoloading standard.
